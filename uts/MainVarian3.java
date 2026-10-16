@@ -22,7 +22,7 @@ public class MainVarian3 {
         garasi.parkir(mobil);       // parkir di slot kosong pertama
         garasi.parkir(motor, 4);    // parkir di slot 4
 
-        // Cetak nota untuk keduanya
+        // Cetak nota
         Kasir kasir = new Kasir("Kasir1");
         kasir.cetakNota(mobil);
         kasir.cetakNota(motor);
