@@ -27,5 +27,9 @@ public class MainVarian3 {
         kasir.cetakNota(mobil);
         kasir.cetakNota(motor);
         garasi.tampilInfo();
+
+        // C3
+        Kendaraan k = new Motor("N 9999 ZZ", "Yamaha NMAX", 100000, 155);
+        k.hitungSewa();
     }
 }
