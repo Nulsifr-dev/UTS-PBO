@@ -1,7 +1,7 @@
 public class Mobil extends Kendaraan {
     private boolean denganSopir;
 
-    // Konstruktor - wajib memanggil super(...)
+    // Konstruktor
     public Mobil(String platNomor, String merk, int tarifHarian, boolean denganSopir) {
         super(platNomor, merk, tarifHarian);
         this.denganSopir = denganSopir;

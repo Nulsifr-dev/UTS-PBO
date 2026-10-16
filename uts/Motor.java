@@ -1,7 +1,7 @@
 public class Motor extends Kendaraan {
     private int cc;
 
-    // Konstruktor - wajib memanggil super(...)
+    // Konstruktor
     public Motor(String platNomor, String merk, int tarifHarian, int cc) {
         super(platNomor, merk, tarifHarian);
         this.cc = cc;

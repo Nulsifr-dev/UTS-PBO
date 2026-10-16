@@ -17,7 +17,7 @@ public class Garasi {
         this.kepala = kepala;
     }
 
-    // Parkir kendaraan ke slot kosong pertama
+    // Parkir kendaraan slot pertama
     public void parkir(Kendaraan k) {
         for (int i = 0; i < daftarSlot.length; i++) {
             if (daftarSlot[i].isKosong()) {
@@ -28,7 +28,7 @@ public class Garasi {
         System.out.println("Garasi penuh! Tidak ada slot kosong.");
     }
 
-    // Parkir kendaraan ke slot tertentu (overloading)
+    // Parkir kendaraan slot tertent(overloading)
     public void parkir(Kendaraan k, int nomorSlot) {
         if (nomorSlot < 1 || nomorSlot > daftarSlot.length) {
             System.out.println("Nomor slot tidak valid.");

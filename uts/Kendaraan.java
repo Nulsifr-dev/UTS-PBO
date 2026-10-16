@@ -31,7 +31,7 @@ public class Kendaraan {
         return hariSewa;
     }
 
-    // hitungSewa - bisa di-override oleh subclass
+    // hitungSewa
     public int hitungSewa() {
         return tarifHarian * hariSewa;
     }
