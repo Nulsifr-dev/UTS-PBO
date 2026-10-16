@@ -8,7 +8,6 @@ public class Mobil extends Kendaraan {
     }
 
     // Override hitungSewa()
-    // Mobil: biaya dasar + Rp150.000 per hari jika menggunakan sopir
     @Override
     public int hitungSewa() {
         int biayaDasar = tarifHarian * hariSewa;

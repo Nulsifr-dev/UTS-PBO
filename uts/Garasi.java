@@ -1,12 +1,11 @@
 public class Garasi {
     private String nama;
-    private SlotParkir[] daftarSlot; // Relasi komposisi: SlotParkir dibuat di dalam Garasi
+    private SlotParkir[] daftarSlot;
     private Mekanik kepala;
 
     // Konstruktor
     public Garasi(String nama, int jumlahSlot) {
         this.nama = nama;
-        // Komposisi: objek SlotParkir dibuat di dalam constructor Garasi
         this.daftarSlot = new SlotParkir[jumlahSlot];
         for (int i = 0; i < jumlahSlot; i++) {
             daftarSlot[i] = new SlotParkir(i + 1);
@@ -31,7 +30,6 @@ public class Garasi {
 
     // Parkir kendaraan ke slot tertentu (overloading)
     public void parkir(Kendaraan k, int nomorSlot) {
-        // Guard clause: cek indeks valid
         if (nomorSlot < 1 || nomorSlot > daftarSlot.length) {
             System.out.println("Nomor slot tidak valid.");
             return;

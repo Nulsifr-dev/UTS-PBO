@@ -19,7 +19,7 @@ public class MainVarian3 {
         motor.setHariSewa(7);
 
         // 5. garasi.parkir(mobil); garasi.parkir(motor, 4);
-        garasi.parkir(mobil);       // parkir di slot kosong pertama (slot 1)
+        garasi.parkir(mobil);       // parkir di slot kosong pertama
         garasi.parkir(motor, 4);    // parkir di slot 4
 
         // Cetak nota untuk keduanya

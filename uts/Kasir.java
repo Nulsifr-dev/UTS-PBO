@@ -8,7 +8,6 @@ public class Kasir {
 
     // Cetak nota sewa kendaraan
     public void cetakNota(Kendaraan k) {
-        // Guard clause: cek apakah kendaraan atau penyewa null
         if (k == null) {
             System.out.println("Kendaraan tidak valid.");
             return;

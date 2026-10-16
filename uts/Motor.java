@@ -8,7 +8,6 @@ public class Motor extends Kendaraan {
     }
 
     // Override hitungSewa()
-    // Motor: biaya dasar, diskon 10% jika hariSewa >= 7
     @Override
     public int hitungSewa() {
         int biayaDasar = tarifHarian * hariSewa;
